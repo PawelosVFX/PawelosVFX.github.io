@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $("button.texta").click(function(){
+        $("button.texta").fadeOut(350);
+        $("button.textb").fadeOut(350);
+        $("button.textc").fadeOut(350);
+    });
+    $("button.texta").click(function(){
+        $("img").fadeIn(350);
+        $("p").fadeIn(350);
+        $("box").fadeIn(350);
+        $("button.return").fadeIn(350);
+    });
+      $("button.return").click(function(){
+        $("button.texta").fadeIn(350);
+        $("button.textb").fadeIn(350);
+        $("button.textc").fadeIn(350);
+        $("img").fadeOut(350);
+        $("p").fadeOut(350);
+        $("box").fadeOut(350);
+        $("button.return").fadeOut(350);
+});
+});
