@@ -5,17 +5,17 @@ body {
 
 @font-face {
 font-family: "Press Gothic Regular";
-src: url("Canada Type - PressGothic_0.otf") format("opentype");
+src: url("PressGothic.otf") format("opentype");
 }
 
 @font-face {
 font-family: "Nexa Light Regular";
-src: url("Nexa Light.otf") format("opentype");
+src: url("Nexa_Light.otf") format("opentype");
 }
 
 @font-face {
 font-family: "Nexa Bold Regular";
-src: url("Nexa Bold.otf") format("opentype");
+src: url("Nexa_Bold.otf") format("opentype");
 }
 
 .texta {
