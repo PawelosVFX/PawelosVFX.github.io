@@ -1,0 +1,133 @@
+body {
+    background-color: #151618;
+    background-image:url(pattern4x4.png);
+}
+
+@font-face {
+font-family: "Press Gothic Regular";
+src: url("Canada Type - PressGothic_0.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Nexa Light Regular";
+src: url("Nexa Light.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Nexa Bold Regular";
+src: url("Nexa Bold.otf") format("opentype");
+}
+
+.texta {
+    border: 3px solid #f9f9f9;
+    border-radius: 0px;
+    background: #151618;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 48px;
+    font-size: 32px;
+    text-align: center;
+    color: #f9f9f9;
+    font-family: Press Gothic Regular;
+    letter-spacing: 0.05em;
+}
+
+.textb {
+    border: 3px solid #f9f9f9;
+    border-radius: 0px;
+    background: #151618;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 48px;
+    font-size: 32px;
+    text-align: center;
+    color: #f9f9f9;
+    font-family: Press Gothic Regular;
+    letter-spacing: 0.05em;
+}
+
+.textc {
+    border: 3px solid #f9f9f9;
+    border-radius: 0px;
+    background: #151618;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 48px;
+    font-size: 32px;
+    text-align: center;
+    color: #f9f9f9;
+    font-family: Press Gothic Regular;
+    letter-spacing: 0.05em;
+}
+
+button.texta:hover {
+    background: #f9f9f9;
+    transition: all 0.8s ease 0s;
+    color: #151618;
+}
+
+button.textb:hover {
+    background: #f9f9f9;
+    transition: all 0.8s ease 0s;
+    color: #151618;
+}
+
+button.textc:hover {
+    background: #f9f9f9;
+    transition: all 0.8s ease 0s;
+    color: #151618;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+}
+
+.container {
+    margin-top: 336px;
+}
+
+img {
+    border: 3px solid #f9f9f9;
+    display: none;
+}
+
+
+.box {
+    background: #151618;
+    margin-top: 48px;
+    color: #f9f9f9;
+
+}
+
+p {
+    font-family: Nexa Light Regular;
+    font-size: 16px;
+    color: #f9f9f9;
+    line-height: 187.5%;  
+    display: none;
+}
+
+.return {
+    border: 3px solid #f9f9f9;
+    border-radius: 0px;
+    background: #151618;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 48px;
+    font-size: 12px;
+    color: #f9f9f9;
+    font-family: Nexa Light Regular;
+    letter-spacing: 0.20em;
+    font-weight: 900;
+    display: none;
+}
+
+button.return:hover {
+    background: #f9f9f9;
+    transition: all 0.8s ease 0s;
+    color: #151618;
+}
