@@ -30,6 +30,7 @@ src: url("OpenSans_Bold.ttf") format("opentype");
     color: #f9f9f9;
     font-family: Press Gothic Regular;
     letter-spacing: 0.05em;
+    
 }
 
 .textb {
@@ -44,6 +45,7 @@ src: url("OpenSans_Bold.ttf") format("opentype");
     color: #f9f9f9;
     font-family: Press Gothic Regular;
     letter-spacing: 0.05em;
+   
 }
 
 .textc {
@@ -58,6 +60,7 @@ src: url("OpenSans_Bold.ttf") format("opentype");
     color: #f9f9f9;
     font-family: Press Gothic Regular;
     letter-spacing: 0.05em;
+    
 }
 
 button.texta:hover {
@@ -127,8 +130,8 @@ p {
 
 button.return:hover {
     background: #f9f9f9;
-    transition: all 0.8s ease 0s;
     color: #151618;
+    transition: all 0.5s ease 0s;
 }
 
 #buttons {
